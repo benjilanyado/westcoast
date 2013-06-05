@@ -4,7 +4,7 @@ $(document).ready(function(){
 ///// TILES & UP/DOWN BUTTONS /////
 
 
-var verticalimages = [	"0px", "627px", "1254px", "1881px", "2508px"];
+var verticalimages = [	"0px", "627px", "1254px", "1881px", "2508px", "3135px"];
 
 var lightboxCurrent = 0;
 
@@ -91,7 +91,7 @@ var boxs = [
 
     {
         selector: '#cover2',
-        headline: 'Astoria Bridge',
+        headline: 'Astoria bridge',
         copy: "The hotel in which we are staying in Astoria is too good for us. It's called the <a target='_blank' href='http://www.cannerypierhotel.com/'>Cannery Pier Hotel</a>, because it's at the end of a pier. We managed to get a room for three for $189. Admittedly, photographer Dan slept on a roll-out bed, but, still, stay here if you ever pitch up in Astoria. Our room overlooks Columbia river and there's a sign by the balcony asking you not to feed the seagulls.",
         content: '<img src="images/bridge.jpg">',
         address: "• <a target='_blank' href='http://www.cannerypierhotel.com/'>cannerypierhotel.com</a>, 10 Basin St, Astoria "
@@ -108,7 +108,7 @@ var boxs = [
     {
         selector: '#cover4',
         headline: 'Experience Music Project',
-        copy: "The model for the cover of In Utero by Nirvana. Big name retail stores found this image offensive. The band's label, DGC, considered the album 'unreleasable' and 'unlistenable'. What did they know, ha! Read more about it on this <a target='_blank' href='http://cltampa.com/dailyloaf/archives/2010/03/03/the-stories-behind-three-seminal-albums-by-nirvana-the-beach-boys-and-billy-joel#.UaPEar_i5Ss'>Daily Loaf post</a>",
+        copy: "The model for the cover of In Utero by Nirvana. Big name retail stores found this image offensive. The band's label, DGC, considered the album 'unreleasable' and 'unlistenable'. What did they know, ha! Read more about it on this <a target='_blank' href='http://cltampa.com/dailyloaf/archives/2010/03/03/the-stories-behind-three-seminal-albums-by-nirvana-the-beach-boys-and-billy-joel#.UaPEar_i5Ss'>Daily Loaf post</a>.",
         content: '<img src="images/inutero.jpg">',
         address: "• <a target='_blank' href='http://www.empmuseum.org/'>empmuseum.org</a>, 325 5th Ave N  Seattle "
     },
@@ -123,8 +123,8 @@ var boxs = [
 
     {
         selector: '#cover7',
-        headline: "Powell's books",
-        copy: "As my cashier, Cy, said, you can get lost in here. 'You hear that a lot over the intercom,'' he laughs. And for a while, I did get lost in Powell's, standing in what turned out to be the wrong meeting place for a long time. We all loved the fact that the used books and the new books were in together. Equality street.",
+        headline: "Powell's City of Books",
+        copy: "As my cashier, Cy, said, you can get lost in here. 'You hear that a lot over the intercom', he laughs. And for a while, I did get lost in Powell's, standing in what turned out to be the wrong meeting place for a long time. We all loved the fact that the used books and the new books were in together. Equality street.",
         content: '<img src="images/powells.jpg">',
         address: '• <a target="_blank" href="http://www.powells.com">powells.com</a>'
     },
@@ -140,7 +140,7 @@ var boxs = [
     {
         selector: '#cover9',
         headline: "Astoria Column",
-        copy: "The views are quite incredible. You can see all of Astoria and even as far as the Pacific, seeing where it meets Columbia River. Once you're up there it's pretty cold and blustery - making it ideal to throw the balsa wood gliders we'd purchased from the gift shop for $1 dollar each. We even saw two bald eagles soaring above the forest. I'm a little bit emotional now. I need a minute.",
+        copy: "The views are quite incredible. You can see all of Astoria and even as far as the Pacific, seeing where it meets Columbia river. Once you're up there it's pretty cold and blustery - making it ideal to throw the balsa wood gliders we'd purchased from the gift shop for $1 each. We even saw two bald eagles soaring above the forest. I'm a little bit emotional now. I need a minute.",
         content: '<img src="images/tower.jpg">',
         address: '• 1 Coxcomb Dr, Astoria'
     },
@@ -157,7 +157,7 @@ var boxs = [
     {
         selector: '#cover11',
         headline: 'Oregon Ducks stadium, Eugene',
-        copy: "We're trying to make good time to get to San Farncisco for the Giants game on Thursday. In Eugene, OR,  we went to see the Oregon Ducks' stadium and managed to creep on to the training field to get a picture. ",
+        copy: "We're trying to make good time to get to San Francisco for the Giants game on Thursday. In Eugene, OR,  we went to see the Oregon Ducks' stadium and managed to creep on to the training field to get a picture. ",
         content: '<img src="images/football.jpg">',
         address: '• <a target="_blank" href="http://www.goducks.com/">goducks.com</a>'
     },
@@ -165,7 +165,7 @@ var boxs = [
     {
         selector: '#cover12',
         headline: 'Former mayor of Portland with his bike',
-        copy: "As we were walking to our Toyota Yaris from Stumptown, suddenly photographer Dan pointed out the former mayor of Portland, <a target='_blank' href='http://en.wikipedia.org/wiki/Sam_Adams_(politician)Sam Adams'>Sam Adams</a>. He was getting his bike off the back of a friend's car and was more than happy to stop for a photo. These politicians. ",
+        copy: "As we were walking to our Toyota Yaris from Stumptown, suddenly photographer Dan pointed out the former mayor of Portland, <a target='_blank' href='http://en.wikipedia.org/wiki/Sam_Adams_%28politician%29'>Sam Adams</a>. He was getting his bike off the back of a friend's car and was more than happy to stop for a photo. These politicians. ",
         content: '<img src="images/bike.jpg">',
         address: ''
     },
@@ -181,7 +181,7 @@ var boxs = [
     {
         selector: '#cover14',
         headline: 'Stumptown Coffee, Portland',
-        copy: "It's a low-key breakfast at Stumptown Coffee. A smoked ham and cheese croissant for me along with the obligatory OJ. It's hipster and its proud in here.",
+        copy: "It's a low-key breakfast at Stumptown Coffee. A smoked ham and cheese croissant for me along with the obligatory OJ. It's hipster and it's proud in here.",
         content: '<img src="images/coffee.jpg">',
         address: "• <a target='_blank' href='http://stumptowncoffee.com/'>stumptowncoffee.com</a>, 128 SW 3rd Avenue"
     },
@@ -204,7 +204,7 @@ var boxs = [
 
     {
         selector: '#cover18',
-        headline: 'Francis Ford Coppola Winery.',
+        headline: 'Francis Ford Coppola Winery',
         copy: "A bit of a weird place. There's a lot of tat on sale and some fairly cool Godfather stuff. I got into my swimming shorts and fall backwards into the pool, leading the lifeguard to ask whether I was meant to be in there. Why? Is it a viewing pool or something?",
         content: '<img src="images/swim.jpg">',
         address: "• <a target='_blank' href='http://www.franciscoppolawinery.com'>franciscoppolawinery.com</a>, 300 Via Archimedes, Geyserville, CA"
@@ -221,7 +221,7 @@ var boxs = [
     {
         selector: '#cover19',
         headline: "Twin Peaks",
-        copy: "We're all about the spectacular views over here. We've just driven up the windy hill and are now looking over the city from Twin Peaks.",
+        copy: "We're all about the spectacular views over here. We've just driven up the windy hill and are now looking over  San Francisco from Twin Peaks.",
         content: '<img src="images/view.jpg">',
         address: ""
     },
@@ -237,7 +237,7 @@ var boxs = [
     {
         selector: '#cover21',
         headline: 'Ferry Building, SF',
-        copy: "And here we are now. San Francisco. We like it here. We're around the Ferry Building and need to find some breakfast. There are many options. It's an upmarket Pike Place Market.",
+        copy: "And here we are now. San Francisco. We like it here. We're around the Ferry Building and need to find some breakfast. There are many options. It's like an upmarket version of Seattle's Pike Place Market.",
         content: '<img src="images/morning.jpg">',
         address: "• <a target='_blank' href='http://www.ferrybuildingmarketplace.com/'>southernmosthouse.com</a>, 1 Sausalito - San Francisco Ferry Bldg"
     },
@@ -245,7 +245,7 @@ var boxs = [
     {
         selector: '#cover22',
         headline: "Shotwell's",
-        copy: "The Mission District used to be a predominantly Irish area but has slowly turned into a more Hispanic area since the 60s.We're in Shotwell's, an old-fashioned pub on Shotwell and 20th street. We're having a beer. Might shoot some pool.",
+        copy: "The Mission District used to be a predominantly Irish area but has slowly turned into a more Hispanic area since the 60s. We're in Shotwell's, an old-fashioned pub on Shotwell and 20th street. We're having a beer. Might shoot some pool.",
         content: '<img src="images/shotwells.jpg">',
         address: "• <a target='_blank' href='http://www.shotwellsbar.com/'>shotwellsbar.com</a>, 3349 20th St, San Francisco"
     }

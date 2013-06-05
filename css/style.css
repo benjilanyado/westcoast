@@ -64,7 +64,7 @@
 	font-size: 40px;
 	margin: 20px 0px;
 	font-family: 'g-bold';
-	line-height: 1;
+	line-height: 1.1em;
 }
 
 #copyholder img {
@@ -137,7 +137,7 @@ body {
 	top: 30px;
 	right: 30px;
 	padding: 10px;
-	z-index: 10
+	z-index: 10;	
 
 }
 
@@ -486,7 +486,7 @@ body {
 
 .thursday {
 
-	top: 236px
+	top: 236px;
 }
 
 .tuesday {
@@ -504,6 +504,30 @@ body {
 
 	top: 142px;
 	right: 20px;
+}
+
+.spotify img {
+
+	width: 20px;
+	float: left;
+	margin-right: 5px
+}
+
+.spotify {
+
+	height: 20px
+}
+
+.spotifycopy {
+
+	font-size: 16px;
+	text-align: left;
+}
+
+.dayofweek a {
+
+	text-decoration: none;
+	color: #65c5fb
 }
 
 
