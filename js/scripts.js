@@ -35,7 +35,7 @@ function upclick() {
 
  	$("#downbutton").fadeIn()
 
- 	if (lightboxCurrent==(verticalimages.length - 5)) {  //NB  "-5" needs to be whatever length of array is
+ 	if (lightboxCurrent==(verticalimages.length - 6)) {  //NB  "-5" needs to be whatever length of array is
 
  		$("#upbutton").fadeOut();
  	}
